@@ -1,0 +1,39 @@
+/* ==================== */
+
+
+/* 
+	Create mobile first breakpoints
+	
+	All Basscss default values
+
+	==
+	
+	Example & Best Practice:
+
+	.selector{ property: value; }
+	
+		@media (--breakpoint-sm){
+			.selector{ property: value; }
+		}
+
+		@media (--breakpoint-md){
+			.selector{ property: value; }
+		}
+
+		@media (--breakpoint-lg){
+			.selector{ property: value; }
+		}
+
+*/
+
+/* <= 40 em */
+@custom-media --breakpoint-sm (min-width: 40em);
+
+/* <= 52 em */
+@custom-media --breakpoint-md (min-width: 52em);
+
+/* <= 64 em */
+@custom-media --breakpoint-lg (min-width: 64em);
+
+
+/* ==================== */
