@@ -22,7 +22,7 @@
 		margin: 0;
 	}
 
-		/* Turn on flex >= breakpoint-md */
+		/* Turn on flex >= breakpoint-md so nav item spacing will happen */
 		@media (--breakpoint-md){
 			.nav ul{ display: flex }
 		}
