@@ -1,4 +1,4 @@
-// Gulp tasks for jchck grav
+// Gulp tasks for pattern lib
 /*
   require node version >= 6.0.0
   to check use $ node -v
