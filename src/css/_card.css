@@ -1,0 +1,61 @@
+/* ==================== */
+
+
+.card{
+	display: flex;
+	padding: 0 var(--space-1);
+	height: auto;
+
+	margin-bottom: var(--space-2);
+}
+
+	.card-inner{
+		flex: 0 1 auto;
+		width: 100%;
+
+		background: var(--white);
+
+		padding: calc( var(--space-1) / 2 );
+		border: solid var(--gray) calc( var(--border-width) / 3 );
+		border-radius: var(--border-radius);
+	}
+
+		.card-top{ }
+
+			.card-img{
+				width: 100%;
+				height: 180px;
+				border-radius: var(--border-radius) var(--border-radius) 0 0;
+			}
+
+		.card-bottom{
+			background: var(--green);
+			color: var(--white);
+
+			padding: var(--space-1);
+		}
+
+		@media(--breakpoint-sm){
+			.card-bottom{ padding: var(--space-2) }
+		}
+
+			.card-heading{
+				font-size: var(--h4);
+				text-align: center;
+				margin: 0;
+			}
+
+				.card-heading:after{
+					display: block;
+					content: '\2014';
+					font-size: 25px;
+					line-height: 1;
+				}
+
+			.card-copy{
+				margin: 0;
+				font-size: var(--h6);
+			}
+
+
+/* ==================== */

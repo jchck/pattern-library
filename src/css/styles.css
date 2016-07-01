@@ -41,6 +41,8 @@
 @import '_variables';
 @import '_mq';
 
+@import '_card';
+@import '_img';
 @import '_nav';
 @import '_typography';
 
