@@ -1,0 +1,61 @@
+/* ==================== */
+
+
+ /* The main navigation container */
+.nav{
+	background-color: var(--blue);
+	padding-top: var(--space-1);
+	padding-bottom: var(--space-1);
+}
+	
+	/* 
+		This holds navigation links
+		[1] no flex <= breakpoint-md
+	*/
+	.nav ul{
+		justify-content: space-around; /* 1 */
+		align-items: center; /* 1 */
+
+		list-style: none;
+
+		padding-left: 0;
+		margin: 0;
+	}
+
+		/* Turn on flex >= breakpoint-md */
+		@media (--breakpoint-md){
+			.nav ul{ display: flex }
+		}
+
+		.nav a{
+			color: var(--white);
+			position: relative;
+			display: block;
+			padding: calc(var(--space-1) / 2) var(--space-1);
+			border-radius: var(--border-radius);
+		}
+
+			/* And :hover & :active states */
+			.nav ul a:hover,
+			.nav ul a:active{ background-color: var(--green) }
+
+			/* When link is the active page */
+			.active a{
+				border: solid calc( var(--border-width) / 2 ) var(--green);
+				border-radius: var(--border-radius);
+			}
+
+
+/* ==================== */
+
+
+/* Extends .nav  */
+.nav-submenu{ }
+
+	.nav-submenu ul{
+		max-width: 100%;
+		white-space: nowrap;
+		overflow-x: auto;
+	}
+
+		.nav-submenu li{ display: inline-block }
