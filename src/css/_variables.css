@@ -97,8 +97,8 @@
 	--button-padding-y: .25rem;
 	--button-padding-x: 1rem;
 
-	--button-color: #fff;
-	--button-background-color: var(--color);
+	--button-color: var(--white);
+	--button-background-color: var(--blue);
 
 	--button-small-padding-y: .25rem;
 	--button-small-padding-x: .5rem;
