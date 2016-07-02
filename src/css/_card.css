@@ -49,7 +49,7 @@
 				.card-heading:after{
 					display: block;
 					content: '\2014';
-					font-size: 25px;
+					font-size: var(--h4);
 					line-height: 1;
 				}
 
