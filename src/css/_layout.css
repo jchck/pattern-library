@@ -6,6 +6,10 @@ section { }
 	section h2:first-of-type{
 		text-align: center;
 		font-size: var(--h1);
+		color: var(--white);
+		background: var(--blue);
+		margin: 0 0 var(--space-2);
+		padding: var(--space-1) 0;
 	}
 
 	section h2:first-of-type:after{
