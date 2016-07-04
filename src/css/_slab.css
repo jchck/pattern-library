@@ -8,8 +8,7 @@
 	padding: calc( var(--space-1) / 2);
 	border: solid var(--gray) calc( var(--border-width) / 3 );
 	border-radius: var(--border-radius);
-
-	background-color: var(--white);
+	margin: var(--space-2) 0;
 }
 
 	.slab-inner{
@@ -20,6 +19,8 @@
 
 		border-radius: var(--border-radius);
 		text-align: center;
+
+		transition: var(--transition);
 	}
 
 		.slab-inner h3:after{
@@ -33,4 +34,15 @@
 /* ==================== */
 
 
+a.slab{ text-decoration: none }
+
+
+/* ==================== */
+
+
 .slab-red .slab-inner{ background-color: var(--red) }
+
+a.slab-red:hover .slab-inner{ background-color: var(--orange) }
+
+
+/* ==================== */
