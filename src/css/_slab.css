@@ -1,0 +1,36 @@
+/* ==================== */
+
+
+.slab{
+	display: flex;
+	justify-content: center;
+	color: var(--white);
+	padding: calc( var(--space-1) / 2);
+	border: solid var(--gray) calc( var(--border-width) / 3 );
+	border-radius: var(--border-radius);
+
+	background-color: var(--white);
+}
+
+	.slab-inner{
+		flex: 0 1 auto;
+		width: 100%;
+
+		padding: calc( var(--space-1) / 2 );
+
+		border-radius: var(--border-radius);
+		text-align: center;
+	}
+
+		.slab-inner h3:after{
+			display: block;
+			content: '\2014';
+			font-size: var(--h3);
+			line-height: 1;
+		}
+
+
+/* ==================== */
+
+
+.slab-red .slab-inner{ background-color: var(--red) }
