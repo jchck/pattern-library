@@ -1,2 +1,16 @@
+/* ==================== */
+
+
 /* <img > reset */
 img{ vertical-align: middle }
+
+
+/* ==================== */
+
+
+.img{
+	max-height: calc( var(--width-1) / 1.33);
+	padding: calc( var(--space-1) /2 );
+	border: solid calc( var(--border-width) / 3 ) var(--gray);
+	border-radius: var(--border-radius);
+}
