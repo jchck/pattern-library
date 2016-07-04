@@ -14,3 +14,27 @@ img{ vertical-align: middle }
 	border: solid calc( var(--border-width) / 3 ) var(--gray);
 	border-radius: var(--border-radius);
 }
+
+	.img-center{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.img-right{
+		margin-left: 0;
+		float: right;
+	}
+
+	@media (--breakpoint-md){
+		.img-right{ margin-left: var(--space-1) }
+	}
+
+	.img-left{
+		margin-right: 0;
+		float: left;
+	}
+
+	@media (--breakpoint-md){
+		.img-left{ margin-right: var(--space-1) }
+	}
