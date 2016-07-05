@@ -94,21 +94,21 @@
 /*
 	Justify between
 */
-.justify-between{ justify-content: between }
+.justify-between{ justify-content: space-between }
 	
 	/* >= breakpoint-sm */
 	@media(--breakpoint-sm){
-		.sm-justify-between{ justify-content: between }
+		.sm-justify-between{ justify-content: space-between }
 	}
 
 	/* >= breakpoint-md */
 	@media(--breakpoint-md){
-		.md-justify-between{ justify-content: between }
+		.md-justify-between{ justify-content: space-between }
 	}
 
 	/* >= breakpoint-lg */
 	@media(--breakpoint-lg){
-		.lg-justify-between{ justify-content: between }
+		.lg-justify-between{ justify-content: space-between }
 	}
 
 
