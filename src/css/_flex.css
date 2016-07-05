@@ -1,7 +1,9 @@
 /* ==================== */
 
 
-/* Flex order */
+/*
+	Flex order
+*/
 .order-1{ order: 1 }
 .order-2{ order: 2 }
 .order-3{ order: 3 }
@@ -42,7 +44,9 @@
 /* ==================== */
 
 
-/* Justify Between */
+/* 
+	Justify between
+*/
 .justify-between{ justify-content: space-between }
 
 	/* >= breakpoint-sm */
@@ -63,7 +67,9 @@
 /* ==================== */
 
 
-/* Justify center */
+/*
+	Justify center
+*/
 .justify-center{ justify-content: center }
 	
 	/* >= breakpoint-sm */
@@ -84,9 +90,16 @@
 
 /* ==================== */
 
+/* 
+	Flex column
+*/
 
 .flex-column{ flex-direction: column }
 
+
+/* 
+	Flex row
+*/
 	@media(--breakpoint-sm){
 		.sm-flex-row{
 			flex-direction: row;
