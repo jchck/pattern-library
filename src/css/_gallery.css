@@ -7,6 +7,9 @@
 }
 
 	.gallery-img{
+		background: var(--white);
+		margin-left: var(--space-1);
+		margin-right: var(--space-1);
 		padding: calc( var(--space-1) /2 );
 		border: solid calc( var(--border-width) / 3 ) var(--gray);
 		border-radius: var(--border-radius);
