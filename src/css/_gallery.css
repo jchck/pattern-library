@@ -1,0 +1,24 @@
+.gallery{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-top: var(--space-1);
+	margin-bottom: var(--space-1);
+}
+
+	.gallery-img{
+		padding: calc( var(--space-1) /2 );
+		border: solid calc( var(--border-width) / 3 ) var(--gray);
+		border-radius: var(--border-radius);
+	}
+
+		.gallery-img img{ 
+			max-height: calc( var(--width-1) / 1.33);
+			border-radius: var(--border-radius);
+		}
+
+		.gallery-img figcaption{
+			text-align: center;
+			font-size: var(--h5);
+			margin: var(--space-1) 0;
+		}
